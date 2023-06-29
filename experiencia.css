@@ -9,7 +9,13 @@
 }
 
 .experiencia .subtitulo {
-  color: linear-gradient(#27415c, #91c4fb);
+  background: linear-gradient(to right, #91c4fb, #27415c);
+  -webkit-background-clip: text; /* Para navegadores baseados em WebKit (Safari, Chrome, etc.) */
+  -webkit-text-fill-color: transparent; /* Para navegadores baseados em WebKit (Safari, Chrome, etc.) */
+}
+
+.bloco {
+  box-shadow: 2px 2px 4px rgba(9, 36, 64, 0.7);
 }
 
 .empresa {
@@ -59,6 +65,7 @@
 }
 
 .empresa-habilidades {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -71,6 +78,31 @@
   border-radius: 4px;
   background: #ffffff;
   padding: 5px 10px;
+}
+
+.empresa-habilidades .one {
+  color: #ffffff;
+  background-color: #092440;
+}
+
+.empresa-habilidades .two {
+  background-color: #91c4fb;
+}
+
+.empresa-habilidades .three {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.empresa-habilidades .four {
+  color: #ffffff;
+
+  background-color: #909090;
+}
+
+.empresa-habilidades .five {
+  background-color: #ffffff;
 }
 
 @media (max-width: 800px) {
