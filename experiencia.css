@@ -1,5 +1,5 @@
 .experiencia {
-  max-width: 1200px;
+  max-width: 100%;
   padding: 40px 20px;
   margin: 0 auto;
   display: grid;
@@ -23,6 +23,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
   background: #161618;
   margin-bottom: 20px;
   border-radius: 4px;
