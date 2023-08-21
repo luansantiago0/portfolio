@@ -29,6 +29,17 @@ ul {
   text-align: center;
 }
 
+.header {
+  background: #000000;
+  max-width: 100%;
+  padding: 8px 8px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid #092440;
+}
+
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
